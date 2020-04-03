@@ -44,3 +44,5 @@ dot.node('L','32')
 dot.edges (['JE','JK', 'KL', 'KD', 'DC', 'DF', 'FI', 'EH', 'EA', 'AG', 'GB'])
 
 SVG(dot.pipe(format = 'svg'))
+
+'''El árbol que se gráfica es distinto a la forma en que se crea, para que sea el mismo árbol binario de la gráfica toca primero pasar el valor de la hoja derecha en vez la hoja de la izquierda y lo mismo pasa cuando se esta recorriendo el árbol para que así da el resultado requerido pero yo no lo hice de esa forma  '''  
